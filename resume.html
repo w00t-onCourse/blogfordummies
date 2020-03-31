@@ -3,50 +3,123 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/resume.css" />
     <title>Heming's Resume</title>
   </head>
   <body>
-    <ul id="links">
-      <li><a href="./index.html">Home</a></li>
-      <li><a>Resume</a></li>
-      <li><a href="./blogs.html">Blogs</a></li>
-    </ul>
-    <table width="70%" height="70%">
-      <caption>
-        Heming's Resume
-      </caption>
-      <tr>
-        <th>Experience</th>
-        <th>Education</th>
-      </tr>
-      <tr>
-        <th>
-          <p>- Exp 1</p>
-          <p>- Exp 2</p>
-          <p>- Exp 3</p>
-        </th>
-        <th>
-          <p>- Edu 1</p>
-          <p>- Edu 2</p>
-          <p>- Edu 3</p>
-        </th>
-      </tr>
-      <tr>
-        <th>Contact</th>
-        <th>Interest</th>
-      </tr>
-      <tr>
-        <th>
-          <p>- Contact 1</p>
-          <p>- Contact 2</p>
-          <p>- Contact 3</p>
-        </th>
-        <th>
-          <p>- Interest 1</p>
-          <p>- Interest 2</p>
-          <p>- Interest 3</p>
-        </th>
-      </tr>
-    </table>
+    <header class="header">
+      <a>Heming's Resume</a>
+      <nav>
+        <a href="./index.html">Home</a> | <a href="./resume.html">Resume</a> |
+        <a href="./blogs.html">Blogs</a>
+      </nav>
+    </header>
+
+    <div class="resumeBody">
+      <div class="name">
+        <h1>Sun Heming</h1>
+      </div>
+
+      <div class="address">
+        <p>#06-09 Sunshine Plaza, xxx Bencoolen St, Singapore xxxxxx</p>
+      </div>
+
+      <div class="work">
+        <h2>Work Experience</h2>
+        <ul>
+          <li class="resumeP">
+            <b>Business Analyst @ GovTech, 2018 - Present</b>
+            <ul class="nestedList">
+              <li>
+                Mobile Application SDLC
+              </li>
+              <li>
+                Mobile Application Revamp
+              </li>
+              <li>
+                Cross Agency Projects
+              </li>
+            </ul>
+          </li>
+          <li class="resumeP">
+            <b>Senior Systems Analyst @ M1 Limited, 2016-2018</b>
+            <ul class="nestedList">
+              <li>Mobile App SDLC</li>
+              <li>
+                Generic BA stuffs
+              </li>
+              <li>
+                UX Prototyping
+              </li>
+              <li>
+                Co-Sourcing
+              </li>
+              <li>
+                Generic Coporate stuffs
+              </li>
+            </ul>
+          </li>
+          <li class="resumeP">
+            <b>Software Developer @ M1 Limited, 2014-2016</b>
+            <ul class="nestedList">
+              <li>
+                Web & Mobile App development
+              </li>
+              <li>
+                API Integrations
+              </li>
+              <li>
+                Application Support
+              </li>
+              <li>Operational Duties</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <div class="education">
+        <h2>Education</h2>
+        <ul>
+          <li class="resumeP"><b>University of Queensland</b></li>
+          <ul class="nestedList">
+            <li>MS Information Technology</li>
+            <li>2012-2014</li>
+          </ul>
+          <li class="resumeP"><b>Nanyang Technological University</b></li>
+          <ul class="nestedList">
+            <li>BE Electrical & Electronics Engineering</li>
+            <li>2007-2011</li>
+          </ul>
+        </ul>
+      </div>
+
+      <div class="skill">
+        <h2>Skills</h2>
+        <ul>
+          <li class="resumeP">Java, Javascript, HTML, CSS, SQL</li>
+          <li class="resumeP">Agile, UI/UX, CI/CD</li>
+          <li class="resumeP">
+            Analytical Thinking, Effective Planning, Communication, Creativity
+          </li>
+        </ul>
+      </div>
+
+      <div class="personal">
+        <h2>Personal</h2>
+        <ul>
+          <li>Fluent in: English, Mandarin, French</li>
+          <li>Hobbies: Swimming, Gym, Fine Dinning, Gaming, Classical Music</li>
+        </ul>
+      </div>
+
+      <div class="contact">
+        <h2>Contact</h2>
+        <ul>
+          <li>Email: my.email@gmail.com</li>
+          <li>Phone: (+65) 9876 5432</li>
+          <li>LinkedIn: my.linkedin@linkedin.com</li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>

@@ -3,18 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/index.css" />
     <title>Heming</title>
   </head>
+
   <body>
-    <div id="header">Heming</div>
-    <ul id="links">
-      <li>Home</li>
-      <li><a href="./resume.html">Resume</a></li>
-      <li><a href="./blogs.html">Blogs</a></li>
-    </ul>
-    <img src="./selfie.png" width="500" height="500" alt="insert selfie here" />
-    <p>About me Para 1</p>
-    <p>About me Para 2</p>
-    <p>About me Para 3</p>
+    <header class="header">
+      <a class="navTitle">Heming's Home</a>
+      <nav>
+        <a href="./index.html">Home</a> | <a href="./resume.html">Resume</a> |
+        <a href="./blogs.html">Blogs</a>
+      </nav>
+    </header>
+
+    <section class="main">
+      <img
+        class="selfie"
+        src="./selfie.png"
+        width="500"
+        height="500"
+        alt="insert selfie here"
+      />
+      <div class="introduction">
+        <p>Havn't done coding in a long while.</p>
+        <p>Trying to keep up with lessons.</p>
+        <p>Cheers for the Public Holidays in May!</p>
+      </div>
+    </section>
+
+    <footer class="footer">
+      Please reach me @
+      <a href="mailto:my.work.gmail@gmail.com?Subject=Hi%20there">work mail</a>
+    </footer>
   </body>
 </html>

@@ -1,0 +1,62 @@
+@import "header.css";
+
+.resumeP {
+  margin: 1em 0;
+}
+
+footer {
+  text-align: center;
+}
+
+.resumeBody {
+  color: #404040;
+  width: 60%;
+  margin: auto;
+  margin-top: 2em;
+  padding: 5px;
+  display: grid;
+  grid-template-areas:
+    "name name"
+    "address address"
+    "work edu"
+    "work skill"
+    "personal personal"
+    "contact contact";
+  border: solid 1.5px;
+  grid-gap: 8px;
+}
+
+.resumeBody h1,
+h2 {
+  margin: 0;
+}
+
+.name {
+  grid-area: name;
+  text-align: center;
+}
+
+.address {
+  text-align: center;
+  grid-area: address;
+}
+
+.education {
+  grid-area: edu;
+}
+
+.work {
+  grid-area: work;
+}
+
+.skill {
+  grid-area: skill;
+}
+
+.personal {
+  grid-area: personal;
+}
+
+.contact {
+  grid-area: contact;
+}

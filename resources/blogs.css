@@ -1,0 +1,25 @@
+@import "header.css";
+
+.blog-article {
+  border: 2px solid;
+  border-radius: 10px;
+  border-color: orange;
+  margin: 10px;
+  padding: 5px;
+  color: black;
+}
+
+.blog-article h3 {
+  margin: 0;
+}
+
+.blog-article p {
+  margin: 0;
+}
+
+.blog-article a {
+  display: block;
+  text-align: right;
+  text-decoration: none;
+  color: orange;
+}
