@@ -1,5 +1,6 @@
 @import "header.css";
 
+/* use spinal-case for css */
 .resumeP {
   margin: 1em 0;
 }
@@ -8,11 +9,12 @@ footer {
   text-align: center;
 }
 
+/* use spinal-case for css */
 .resumeBody {
   color: #404040;
   width: 60%;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 2em; /* Don't mix em and px in the same component , use em if you want the space to be fixed */
   padding: 5px;
   display: grid;
   grid-template-areas:
